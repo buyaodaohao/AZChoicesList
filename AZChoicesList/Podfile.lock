@@ -1,0 +1,20 @@
+PODS:
+  - MJExtension (3.2.2)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - MJExtension
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - MJExtension
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 3faf07e563322d51d7521b27b6a87ecb5a12291b
+
+COCOAPODS: 1.9.1

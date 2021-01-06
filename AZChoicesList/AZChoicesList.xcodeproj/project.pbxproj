@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0CC64D925A3F86C003CBECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC64D825A3F86C003CBECB /* AppDelegate.m */; };
+		B0CC64DC25A3F86C003CBECB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC64DB25A3F86C003CBECB /* SceneDelegate.m */; };
+		B0CC64DF25A3F86C003CBECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC64DE25A3F86C003CBECB /* ViewController.m */; };
+		B0CC64E225A3F86C003CBECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CC64E025A3F86C003CBECB /* Main.storyboard */; };
+		B0CC64E425A3F86D003CBECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CC64E325A3F86D003CBECB /* Assets.xcassets */; };
+		B0CC64E725A3F86D003CBECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CC64E525A3F86D003CBECB /* LaunchScreen.storyboard */; };
+		B0CC64EA25A3F86D003CBECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC64E925A3F86D003CBECB /* main.m */; };
+		B0CC64F425A3F86D003CBECB /* AZChoicesListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC64F325A3F86D003CBECB /* AZChoicesListTests.m */; };
+		B0CC64FF25A3F86D003CBECB /* AZChoicesListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC64FE25A3F86D003CBECB /* AZChoicesListUITests.m */; };
+		B0CC652525A3FB5A003CBECB /* NSString+PinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC651A25A3FB5A003CBECB /* NSString+PinYin4Cocoa.m */; };
+		B0CC652625A3FB5A003CBECB /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC651D25A3FB5A003CBECB /* PinyinHelper.m */; };
+		B0CC652725A3FB5A003CBECB /* HanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC651F25A3FB5A003CBECB /* HanyuPinyinOutputFormat.m */; };
+		B0CC652825A3FB5A003CBECB /* ChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC652025A3FB5A003CBECB /* ChineseToPinyinResource.m */; };
+		B0CC652925A3FB5A003CBECB /* PinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC652125A3FB5A003CBECB /* PinyinFormatter.m */; };
+		B0CC652A25A3FB5A003CBECB /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = B0CC652425A3FB5A003CBECB /* unicode_to_hanyu_pinyin.txt */; };
+		B0CC655C25A42E15003CBECB /* KKGAZChoiceItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC655B25A42E15003CBECB /* KKGAZChoiceItemListViewController.m */; };
+		B0CC656225A42E36003CBECB /* KKGChoiceItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC656125A42E36003CBECB /* KKGChoiceItemModel.m */; };
+		B0CC656825A42E60003CBECB /* KKGChoiceItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC656725A42E60003CBECB /* KKGChoiceItemCell.m */; };
+		B0CC656F25A43488003CBECB /* radio_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B0CC656D25A43488003CBECB /* radio_selected.png */; };
+		B0CC657025A43488003CBECB /* radio_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B0CC656E25A43488003CBECB /* radio_normal.png */; };
+		B0CC657525A43504003CBECB /* localTest.json in Resources */ = {isa = PBXBuildFile; fileRef = B0CC657425A43504003CBECB /* localTest.json */; };
+		B923DCCC42454B70F24E7871 /* libPods-AZChoicesList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0356F85333DE6718B5FE69CA /* libPods-AZChoicesList.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0CC64F025A3F86D003CBECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0CC64CC25A3F86C003CBECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CC64D325A3F86C003CBECB;
+			remoteInfo = AZChoicesList;
+		};
+		B0CC64FB25A3F86D003CBECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0CC64CC25A3F86C003CBECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CC64D325A3F86C003CBECB;
+			remoteInfo = AZChoicesList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0356F85333DE6718B5FE69CA /* libPods-AZChoicesList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AZChoicesList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2831FC05B7636755E9DCDE39 /* Pods-AZChoicesList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZChoicesList.debug.xcconfig"; path = "Target Support Files/Pods-AZChoicesList/Pods-AZChoicesList.debug.xcconfig"; sourceTree = "<group>"; };
+		B0CC64D425A3F86C003CBECB /* AZChoicesList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZChoicesList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CC64D725A3F86C003CBECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0CC64D825A3F86C003CBECB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0CC64DA25A3F86C003CBECB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B0CC64DB25A3F86C003CBECB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B0CC64DD25A3F86C003CBECB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0CC64DE25A3F86C003CBECB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0CC64E125A3F86C003CBECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0CC64E325A3F86D003CBECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0CC64E625A3F86D003CBECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0CC64E825A3F86D003CBECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CC64E925A3F86D003CBECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0CC64EF25A3F86D003CBECB /* AZChoicesListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZChoicesListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CC64F325A3F86D003CBECB /* AZChoicesListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZChoicesListTests.m; sourceTree = "<group>"; };
+		B0CC64F525A3F86D003CBECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CC64FA25A3F86D003CBECB /* AZChoicesListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZChoicesListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CC64FE25A3F86D003CBECB /* AZChoicesListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZChoicesListUITests.m; sourceTree = "<group>"; };
+		B0CC650025A3F86D003CBECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CC651825A3FB5A003CBECB /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
+		B0CC651925A3FB5A003CBECB /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		B0CC651A25A3FB5A003CBECB /* NSString+PinYin4Cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin4Cocoa.m"; sourceTree = "<group>"; };
+		B0CC651B25A3FB5A003CBECB /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyinResource.h; sourceTree = "<group>"; };
+		B0CC651C25A3FB5A003CBECB /* PinyinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinFormatter.h; sourceTree = "<group>"; };
+		B0CC651D25A3FB5A003CBECB /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
+		B0CC651E25A3FB5A003CBECB /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
+		B0CC651F25A3FB5A003CBECB /* HanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
+		B0CC652025A3FB5A003CBECB /* ChineseToPinyinResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyinResource.m; sourceTree = "<group>"; };
+		B0CC652125A3FB5A003CBECB /* PinyinFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinFormatter.m; sourceTree = "<group>"; };
+		B0CC652225A3FB5A003CBECB /* PinYin4Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYin4Objc.h; sourceTree = "<group>"; };
+		B0CC652425A3FB5A003CBECB /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		B0CC653B25A402E9003CBECB /* AZChoiceListPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZChoiceListPrefixHeader.pch; sourceTree = "<group>"; };
+		B0CC655A25A42E15003CBECB /* KKGAZChoiceItemListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKGAZChoiceItemListViewController.h; sourceTree = "<group>"; };
+		B0CC655B25A42E15003CBECB /* KKGAZChoiceItemListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKGAZChoiceItemListViewController.m; sourceTree = "<group>"; };
+		B0CC656025A42E36003CBECB /* KKGChoiceItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKGChoiceItemModel.h; sourceTree = "<group>"; };
+		B0CC656125A42E36003CBECB /* KKGChoiceItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKGChoiceItemModel.m; sourceTree = "<group>"; };
+		B0CC656625A42E60003CBECB /* KKGChoiceItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKGChoiceItemCell.h; sourceTree = "<group>"; };
+		B0CC656725A42E60003CBECB /* KKGChoiceItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKGChoiceItemCell.m; sourceTree = "<group>"; };
+		B0CC656D25A43488003CBECB /* radio_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_selected.png; sourceTree = "<group>"; };
+		B0CC656E25A43488003CBECB /* radio_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_normal.png; sourceTree = "<group>"; };
+		B0CC657425A43504003CBECB /* localTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = localTest.json; sourceTree = "<group>"; };
+		C39EDD962ED5C625D7309175 /* Pods-AZChoicesList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZChoicesList.release.xcconfig"; path = "Target Support Files/Pods-AZChoicesList/Pods-AZChoicesList.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0CC64D125A3F86C003CBECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B923DCCC42454B70F24E7871 /* libPods-AZChoicesList.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CC64EC25A3F86D003CBECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CC64F725A3F86D003CBECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		980F782714C8ED47E00CE264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0356F85333DE6718B5FE69CA /* libPods-AZChoicesList.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0CC64CB25A3F86C003CBECB = {
+			isa = PBXGroup;
+			children = (
+				B0CC64D625A3F86C003CBECB /* AZChoicesList */,
+				B0CC64F225A3F86D003CBECB /* AZChoicesListTests */,
+				B0CC64FD25A3F86D003CBECB /* AZChoicesListUITests */,
+				B0CC651525A3FB5A003CBECB /* supportingFiles */,
+				B0CC64D525A3F86C003CBECB /* Products */,
+				B5FA07B6E1C1EA5CB4F05857 /* Pods */,
+				980F782714C8ED47E00CE264 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0CC64D525A3F86C003CBECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC64D425A3F86C003CBECB /* AZChoicesList.app */,
+				B0CC64EF25A3F86D003CBECB /* AZChoicesListTests.xctest */,
+				B0CC64FA25A3F86D003CBECB /* AZChoicesListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0CC64D625A3F86C003CBECB /* AZChoicesList */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC655625A42DA4003CBECB /* Example */,
+				B0CC64D725A3F86C003CBECB /* AppDelegate.h */,
+				B0CC64D825A3F86C003CBECB /* AppDelegate.m */,
+				B0CC64DA25A3F86C003CBECB /* SceneDelegate.h */,
+				B0CC64DB25A3F86C003CBECB /* SceneDelegate.m */,
+				B0CC64DD25A3F86C003CBECB /* ViewController.h */,
+				B0CC64DE25A3F86C003CBECB /* ViewController.m */,
+				B0CC64E025A3F86C003CBECB /* Main.storyboard */,
+				B0CC64E325A3F86D003CBECB /* Assets.xcassets */,
+				B0CC64E525A3F86D003CBECB /* LaunchScreen.storyboard */,
+				B0CC64E825A3F86D003CBECB /* Info.plist */,
+				B0CC64E925A3F86D003CBECB /* main.m */,
+			);
+			path = AZChoicesList;
+			sourceTree = "<group>";
+		};
+		B0CC64F225A3F86D003CBECB /* AZChoicesListTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC64F325A3F86D003CBECB /* AZChoicesListTests.m */,
+				B0CC64F525A3F86D003CBECB /* Info.plist */,
+			);
+			path = AZChoicesListTests;
+			sourceTree = "<group>";
+		};
+		B0CC64FD25A3F86D003CBECB /* AZChoicesListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC64FE25A3F86D003CBECB /* AZChoicesListUITests.m */,
+				B0CC650025A3F86D003CBECB /* Info.plist */,
+			);
+			path = AZChoicesListUITests;
+			sourceTree = "<group>";
+		};
+		B0CC651525A3FB5A003CBECB /* supportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC657425A43504003CBECB /* localTest.json */,
+				B0CC656C25A43456003CBECB /* images */,
+				B0CC651625A3FB5A003CBECB /* PinYin4Objc */,
+				B0CC653B25A402E9003CBECB /* AZChoiceListPrefixHeader.pch */,
+			);
+			name = supportingFiles;
+			path = AZChoicesList/supportingFiles;
+			sourceTree = "<group>";
+		};
+		B0CC651625A3FB5A003CBECB /* PinYin4Objc */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC651725A3FB5A003CBECB /* Classes */,
+				B0CC652325A3FB5A003CBECB /* Resources */,
+			);
+			path = PinYin4Objc;
+			sourceTree = "<group>";
+		};
+		B0CC651725A3FB5A003CBECB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC651825A3FB5A003CBECB /* PinyinHelper.h */,
+				B0CC651925A3FB5A003CBECB /* HanyuPinyinOutputFormat.h */,
+				B0CC651A25A3FB5A003CBECB /* NSString+PinYin4Cocoa.m */,
+				B0CC651B25A3FB5A003CBECB /* ChineseToPinyinResource.h */,
+				B0CC651C25A3FB5A003CBECB /* PinyinFormatter.h */,
+				B0CC651D25A3FB5A003CBECB /* PinyinHelper.m */,
+				B0CC651E25A3FB5A003CBECB /* NSString+PinYin4Cocoa.h */,
+				B0CC651F25A3FB5A003CBECB /* HanyuPinyinOutputFormat.m */,
+				B0CC652025A3FB5A003CBECB /* ChineseToPinyinResource.m */,
+				B0CC652125A3FB5A003CBECB /* PinyinFormatter.m */,
+				B0CC652225A3FB5A003CBECB /* PinYin4Objc.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B0CC652325A3FB5A003CBECB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC652425A3FB5A003CBECB /* unicode_to_hanyu_pinyin.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B0CC655625A42DA4003CBECB /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC655725A42DA4003CBECB /* controller */,
+				B0CC655825A42DA4003CBECB /* model */,
+				B0CC655925A42DA4003CBECB /* view */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		B0CC655725A42DA4003CBECB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC655A25A42E15003CBECB /* KKGAZChoiceItemListViewController.h */,
+				B0CC655B25A42E15003CBECB /* KKGAZChoiceItemListViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B0CC655825A42DA4003CBECB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC656025A42E36003CBECB /* KKGChoiceItemModel.h */,
+				B0CC656125A42E36003CBECB /* KKGChoiceItemModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B0CC655925A42DA4003CBECB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC656625A42E60003CBECB /* KKGChoiceItemCell.h */,
+				B0CC656725A42E60003CBECB /* KKGChoiceItemCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B0CC656C25A43456003CBECB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC656E25A43488003CBECB /* radio_normal.png */,
+				B0CC656D25A43488003CBECB /* radio_selected.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B5FA07B6E1C1EA5CB4F05857 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2831FC05B7636755E9DCDE39 /* Pods-AZChoicesList.debug.xcconfig */,
+				C39EDD962ED5C625D7309175 /* Pods-AZChoicesList.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0CC64D325A3F86C003CBECB /* AZChoicesList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CC650325A3F86D003CBECB /* Build configuration list for PBXNativeTarget "AZChoicesList" */;
+			buildPhases = (
+				18EA78F48390E3C6B9B532D8 /* [CP] Check Pods Manifest.lock */,
+				B0CC64D025A3F86C003CBECB /* Sources */,
+				B0CC64D125A3F86C003CBECB /* Frameworks */,
+				B0CC64D225A3F86C003CBECB /* Resources */,
+				B84C3F27756A183AB4124F7F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZChoicesList;
+			productName = AZChoicesList;
+			productReference = B0CC64D425A3F86C003CBECB /* AZChoicesList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0CC64EE25A3F86D003CBECB /* AZChoicesListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CC650625A3F86D003CBECB /* Build configuration list for PBXNativeTarget "AZChoicesListTests" */;
+			buildPhases = (
+				B0CC64EB25A3F86D003CBECB /* Sources */,
+				B0CC64EC25A3F86D003CBECB /* Frameworks */,
+				B0CC64ED25A3F86D003CBECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0CC64F125A3F86D003CBECB /* PBXTargetDependency */,
+			);
+			name = AZChoicesListTests;
+			productName = AZChoicesListTests;
+			productReference = B0CC64EF25A3F86D003CBECB /* AZChoicesListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0CC64F925A3F86D003CBECB /* AZChoicesListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CC650925A3F86D003CBECB /* Build configuration list for PBXNativeTarget "AZChoicesListUITests" */;
+			buildPhases = (
+				B0CC64F625A3F86D003CBECB /* Sources */,
+				B0CC64F725A3F86D003CBECB /* Frameworks */,
+				B0CC64F825A3F86D003CBECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0CC64FC25A3F86D003CBECB /* PBXTargetDependency */,
+			);
+			name = AZChoicesListUITests;
+			productName = AZChoicesListUITests;
+			productReference = B0CC64FA25A3F86D003CBECB /* AZChoicesListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0CC64CC25A3F86C003CBECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KKG;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					B0CC64D325A3F86C003CBECB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					B0CC64EE25A3F86D003CBECB = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B0CC64D325A3F86C003CBECB;
+					};
+					B0CC64F925A3F86D003CBECB = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B0CC64D325A3F86C003CBECB;
+					};
+				};
+			};
+			buildConfigurationList = B0CC64CF25A3F86C003CBECB /* Build configuration list for PBXProject "AZChoicesList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0CC64CB25A3F86C003CBECB;
+			productRefGroup = B0CC64D525A3F86C003CBECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0CC64D325A3F86C003CBECB /* AZChoicesList */,
+				B0CC64EE25A3F86D003CBECB /* AZChoicesListTests */,
+				B0CC64F925A3F86D003CBECB /* AZChoicesListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0CC64D225A3F86C003CBECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CC652A25A3FB5A003CBECB /* unicode_to_hanyu_pinyin.txt in Resources */,
+				B0CC64E725A3F86D003CBECB /* LaunchScreen.storyboard in Resources */,
+				B0CC657025A43488003CBECB /* radio_normal.png in Resources */,
+				B0CC656F25A43488003CBECB /* radio_selected.png in Resources */,
+				B0CC657525A43504003CBECB /* localTest.json in Resources */,
+				B0CC64E425A3F86D003CBECB /* Assets.xcassets in Resources */,
+				B0CC64E225A3F86C003CBECB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CC64ED25A3F86D003CBECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CC64F825A3F86D003CBECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18EA78F48390E3C6B9B532D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AZChoicesList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B84C3F27756A183AB4124F7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AZChoicesList/Pods-AZChoicesList-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AZChoicesList/Pods-AZChoicesList-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AZChoicesList/Pods-AZChoicesList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0CC64D025A3F86C003CBECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CC652625A3FB5A003CBECB /* PinyinHelper.m in Sources */,
+				B0CC656825A42E60003CBECB /* KKGChoiceItemCell.m in Sources */,
+				B0CC64DF25A3F86C003CBECB /* ViewController.m in Sources */,
+				B0CC652525A3FB5A003CBECB /* NSString+PinYin4Cocoa.m in Sources */,
+				B0CC64D925A3F86C003CBECB /* AppDelegate.m in Sources */,
+				B0CC64EA25A3F86D003CBECB /* main.m in Sources */,
+				B0CC652825A3FB5A003CBECB /* ChineseToPinyinResource.m in Sources */,
+				B0CC64DC25A3F86C003CBECB /* SceneDelegate.m in Sources */,
+				B0CC655C25A42E15003CBECB /* KKGAZChoiceItemListViewController.m in Sources */,
+				B0CC652925A3FB5A003CBECB /* PinyinFormatter.m in Sources */,
+				B0CC652725A3FB5A003CBECB /* HanyuPinyinOutputFormat.m in Sources */,
+				B0CC656225A42E36003CBECB /* KKGChoiceItemModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CC64EB25A3F86D003CBECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CC64F425A3F86D003CBECB /* AZChoicesListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CC64F625A3F86D003CBECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CC64FF25A3F86D003CBECB /* AZChoicesListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0CC64F125A3F86D003CBECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CC64D325A3F86C003CBECB /* AZChoicesList */;
+			targetProxy = B0CC64F025A3F86D003CBECB /* PBXContainerItemProxy */;
+		};
+		B0CC64FC25A3F86D003CBECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CC64D325A3F86C003CBECB /* AZChoicesList */;
+			targetProxy = B0CC64FB25A3F86D003CBECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0CC64E025A3F86C003CBECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CC64E125A3F86C003CBECB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0CC64E525A3F86D003CBECB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CC64E625A3F86D003CBECB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0CC650125A3F86D003CBECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0CC650225A3F86D003CBECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0CC650425A3F86D003CBECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2831FC05B7636755E9DCDE39 /* Pods-AZChoicesList.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44VU4UWP68;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT)/supportingFiles/AZChoiceListPrefixHeader.pch";
+				INFOPLIST_FILE = AZChoicesList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.china-ccw.AZChoicesList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0CC650525A3F86D003CBECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39EDD962ED5C625D7309175 /* Pods-AZChoicesList.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44VU4UWP68;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT)/supportingFiles/AZChoiceListPrefixHeader.pch";
+				INFOPLIST_FILE = AZChoicesList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.china-ccw.AZChoicesList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0CC650725A3F86D003CBECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44VU4UWP68;
+				INFOPLIST_FILE = AZChoicesListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.china-ccw.AZChoicesListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZChoicesList.app/AZChoicesList";
+			};
+			name = Debug;
+		};
+		B0CC650825A3F86D003CBECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44VU4UWP68;
+				INFOPLIST_FILE = AZChoicesListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.china-ccw.AZChoicesListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZChoicesList.app/AZChoicesList";
+			};
+			name = Release;
+		};
+		B0CC650A25A3F86D003CBECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44VU4UWP68;
+				INFOPLIST_FILE = AZChoicesListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.china-ccw.AZChoicesListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AZChoicesList;
+			};
+			name = Debug;
+		};
+		B0CC650B25A3F86D003CBECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44VU4UWP68;
+				INFOPLIST_FILE = AZChoicesListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.china-ccw.AZChoicesListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AZChoicesList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0CC64CF25A3F86C003CBECB /* Build configuration list for PBXProject "AZChoicesList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CC650125A3F86D003CBECB /* Debug */,
+				B0CC650225A3F86D003CBECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CC650325A3F86D003CBECB /* Build configuration list for PBXNativeTarget "AZChoicesList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CC650425A3F86D003CBECB /* Debug */,
+				B0CC650525A3F86D003CBECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CC650625A3F86D003CBECB /* Build configuration list for PBXNativeTarget "AZChoicesListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CC650725A3F86D003CBECB /* Debug */,
+				B0CC650825A3F86D003CBECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CC650925A3F86D003CBECB /* Build configuration list for PBXNativeTarget "AZChoicesListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CC650A25A3F86D003CBECB /* Debug */,
+				B0CC650B25A3F86D003CBECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0CC64CC25A3F86C003CBECB /* Project object */;
+}
